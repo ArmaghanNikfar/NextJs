@@ -9,13 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.15.15",
     "axios": "^1.6.8",
-=======
     "fs": "^0.0.1-security",
->>>>>>> c1c78cdf4a09a81891e076a2e0ec5eaa0888aac4
     "next": "14.1.3",
     "next-mdx-remote": "^4.4.1",
     "react": "^18.2.0",

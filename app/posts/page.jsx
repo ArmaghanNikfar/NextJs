@@ -1,7 +1,10 @@
-import { getAllPosts } from "../../lib/posts";
+import { getAllPosts, wait } from "../../lib/posts";
 import Link from "next/link";
+import PageViews from "../components/ui/Pageview";
+import { Suspense } from "react";
 
 const Page = async() =>{
+    await wait(2000)
     const Posts = await getAllPosts()
     return  ( 
     <section className='py-24'>
@@ -18,6 +21,10 @@ const Page = async() =>{
                             </Link>
                     </li>
                 ))}
+                {/* we use Suspense for showing loading for this component */}
+                <Suspense fallback={<div>Loading page views ... </div>}>
+                 <PageViews/>
+                </Suspense>
             </ul>
             </div>
         </section>

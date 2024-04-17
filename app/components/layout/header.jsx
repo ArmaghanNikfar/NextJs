@@ -30,11 +30,7 @@ const Header = () =>{
                     <NavLink href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</NavLink>
                     <NavLink href="/pockemon" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Pockemon</NavLink>
                     <ContactButton/>
-<<<<<<< HEAD
-
-=======
                     <NavLink href="/posts" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Posts</NavLink>
->>>>>>> c1c78cdf4a09a81891e076a2e0ec5eaa0888aac4
                   </div>
                 </div>
               </div>
