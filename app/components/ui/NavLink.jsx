@@ -7,7 +7,6 @@ import { usePathname } from "next/navigation";
 const NavLink = ({ href, ...rest }) => {
     const pathName = usePathname()
     const isActive = href === pathName
-    console.log(href === pathName);
 
     return(
         <Link className={isActive? 'bg-gray' : ''} href={href} {...rest} />
