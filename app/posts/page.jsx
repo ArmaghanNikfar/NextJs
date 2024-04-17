@@ -1,0 +1,26 @@
+import { getAllPosts } from "../../lib/posts";
+import Link from "next/link";
+
+const Page = async() =>{
+    const Posts = await getAllPosts()
+    return  ( 
+    <section className='py-24'>
+            <div className='container'>
+            <h1 className='text-3xl font-bold'>All Posts</h1>
+            <ul className='mt-12'>
+                {Posts.map(post =>(
+                    <li key={post.slug}>
+                        <Link href={`/posts/${post.slug}`}>
+                          <h4 className='text-lg font-medium'>{post.frontmatter?.title}</h4>
+                          <p className='text-sm text-gray-500'>
+                            {post.frontmatter?.author}
+                          </p>
+                            </Link>
+                    </li>
+                ))}
+            </ul>
+            </div>
+        </section>
+    )
+}
+export default Page;
