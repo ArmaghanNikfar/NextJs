@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import { Grid, Card, CardContent, Typography, TextField, Button, Avatar } from '@mui/material';
 export default function Home() {
+  
   return (
 
     <div className='main'>
