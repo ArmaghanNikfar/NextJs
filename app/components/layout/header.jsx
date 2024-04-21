@@ -29,7 +29,7 @@ const Header = () =>{
                   <div className="flex space-x-4">
                     <NavLink href="/" className=" text-gray-300 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</NavLink>
                     <NavLink href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</NavLink>
-                    <NavLink href="/pockemon" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Pockemon</NavLink>
+                    <NavLink href="/pockemon" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Pokemon</NavLink>
                     <ContactButton/>
                     <NavLink href="/posts" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Posts</NavLink>
                   </div>
@@ -63,7 +63,7 @@ const Header = () =>{
           <div className="flex space-x-4">
                     <NavLink href="/" className=" text-gray-300 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</NavLink>
                     <NavLink href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</NavLink>
-                    <NavLink href="/pockemon" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Pockemon</NavLink>
+                    <NavLink href="/pockemon" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Pokemon</NavLink>
                     <ContactButton/>
                     <NavLink href="/posts" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Posts</NavLink>
                   </div>
