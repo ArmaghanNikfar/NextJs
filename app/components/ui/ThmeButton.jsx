@@ -15,6 +15,6 @@ const ThemeButton = () =>{
     }
     const {resolvedTheme, setTheme} = useTheme()
     return <button onClick={toogleTheme }>
-        {resolvedTheme ==='dark'?(<LightMode/>):(<DarkModeSharp/>)}</button>
+        {resolvedTheme ==='dark'?(<LightMode/>):(<DarkModeSharp style={{color:"white"}}/>)}</button>
 }
 export default ThemeButton

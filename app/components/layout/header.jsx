@@ -28,11 +28,10 @@ const Header = () =>{
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     <NavLink href="/" className=" text-gray-300 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</NavLink>
-                    <NavLink href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</NavLink>
+                    <NavLink href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</NavLink>
                     <NavLink href="/pockemon" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Pockemon</NavLink>
                     <ContactButton/>
                     <NavLink href="/posts" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Posts</NavLink>
-                    <NavLink href="/guestbook" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Guest Book</NavLink>
                   </div>
                 </div>
               </div>
@@ -63,11 +62,10 @@ const Header = () =>{
           <div className="sm:hidden" id="mobile-menu">
           <div className="flex space-x-4">
                     <NavLink href="/" className=" text-gray-300 rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Home</NavLink>
-                    <NavLink href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</NavLink>
+                    <NavLink href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projects</NavLink>
                     <NavLink href="/pockemon" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Pockemon</NavLink>
                     <ContactButton/>
                     <NavLink href="/posts" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Posts</NavLink>
-                    <NavLink href="/guestbook" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Guest Book</NavLink>
                   </div>
           </div>
         </nav>
