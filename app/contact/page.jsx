@@ -35,7 +35,7 @@ const Contact = () => {
                     <Typography style={{marginTop:"6px"}} color='primary'> GitHub</Typography>
                   </Grid>
                   <Grid item xs={5}>
-                    <Typography style={{marginTop:"6px"}}>armaghannikfar@gmail.com</Typography>
+                    <a href="https://github.com/ArmaghanNikfar" target="_blank"style={{marginTop:"6px", color:"blue"}}>My Github</a>
                   </Grid>
                 </Grid>
                </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                     <Typography style={{marginTop:"6px"}} color='primary'> LinkedIn</Typography>
                   </Grid>
                   <Grid item xs={5}>
-                    <Typography style={{marginTop:"6px"}}>+989981511296</Typography>
+                    <a href='www.linkedin.com/in/armaghan-nikfar-aa2a74256' target='_blank' style={{marginTop:"6px", color:"blue"}}>My LinkedIn</a>
                   </Grid>
                 </Grid>
                </div>
