@@ -25,8 +25,8 @@ const About = () => {
                 <Card className='card'>
                 <h3 className='px-5 py-5 uppercase font-bold text-lg text-zinc-500 tracking-wide'>React Js</h3>
                   <CardContent>
-                    <h3 className='font-semibold'>Dashboard Pannel more than 100 updates</h3>
-                    <Typography>A Dashboard pannel for Shatel Co built with React Js, MUI, Tailwind & React Auth.</Typography>
+                    <h3 className='font-semibold'>Dashboard Pannel + 100 updates</h3>
+                    <Typography >A Dashboard pannel for Shatel Co built with React Js, MUI, Tailwind,Auth, SignalR, Notifications.</Typography>
                   </CardContent>
                 </Card>
               </Grid>

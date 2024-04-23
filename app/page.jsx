@@ -130,14 +130,14 @@ export default function Home() {
               </div>
               <div id="textbois">
                 <Grid container>
-                  <Typography style={{ color: "black" }}>React Js</Typography>
-                  <Typography style={{ color: "black" }}>Next Js</Typography>
-                  <Typography style={{ color: "black" }}>Python</Typography>
-                  <Typography style={{ color: "black" }}>Java script</Typography>
-                  <Typography style={{ color: "black" }}>Material UI & Tailwind CSS</Typography>
-                  <Typography style={{ color: "black" }}>Artifical intelligence</Typography>
-                  <Typography style={{ color: "black" }}>HTML5 & CSS</Typography>
-                  <Typography style={{ color: "black" }}>React Native</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold' }}>React Js</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold'  }}>Next Js</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold'  }}>Python</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold'  }}>Java script</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold'  }}>Material UI & Tailwind CSS</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold'  }}>Artifical intelligence</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold'  }}>HTML5 & CSS</Typography>
+                  <Typography style={{ color: "black",fontWeight:'bold'  }}>React Native</Typography>
 
 
 
@@ -154,8 +154,8 @@ export default function Home() {
                 <Card className='card'>
                   <h3 className='px-5 py-5 uppercase font-bold text-lg text-zinc-500 tracking-wide'>React Js</h3>
                   <CardContent>
-                    <h3 className='font-semibold'>Dashboard Pannel more than 100 updates</h3>
-                    <Typography>A Dashboard pannel for Shatel Co built with React Js, MUI, Tailwind & React Auth.</Typography>
+                    <h3 className='font-semibold'>Dashboard Pannel + 100 updates</h3>
+                    <Typography >A Dashboard pannel for Shatel Co built with React Js, MUI, Tailwind,Auth, SignalR, Notifications.</Typography>
                   </CardContent>
                 </Card>
               </Grid>

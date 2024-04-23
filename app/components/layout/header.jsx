@@ -1,6 +1,7 @@
 import NavLink from '../ui/NavLink'
 import ContactButton from '../ui/ContactButton'
 import ThemeButton from '../ui/ThmeButton'
+import SignInButton from '../SignInButton/SignInButton'
 const Header = () =>{
     return(
         <header>
@@ -45,16 +46,7 @@ const Header = () =>{
                   </svg>
                 </button>
               
-                <div className="relative ml-3">
-                  <div>
-                    <button type="button" className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800" id="user-menu-button" aria-expanded="false" aria-haspopup="false">
-                      <span className="absolute -inset-1.5"></span>
-                      <span className="sr-only">Open user menu</span>
-                      <img className="h-8 w-8 rounded-full" src="/IMG_6740.jpg" alt="" />
-                    </button>
-
-                  </div>
-                </div>
+             <SignInButton/>
               </div>
             </div>
           </div>
